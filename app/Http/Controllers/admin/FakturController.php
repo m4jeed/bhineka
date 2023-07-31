@@ -33,7 +33,8 @@ class FakturController extends Controller
 
     public function insert(Request $request) {
         $this->validate($request,[
-            'jumlah' => 'required|numeric',
+            'jumlah' => 'required|numeric|min:1',
+            'harga' => 'required|numeric|min:1',
          ]);
         
         $data = [
