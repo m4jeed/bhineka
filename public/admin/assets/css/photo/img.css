@@ -1,0 +1,7 @@
+.img-users {
+    object-fit: cover;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    box-shadow: 0 0 0 3px #777;
+}
